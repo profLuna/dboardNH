@@ -834,7 +834,7 @@ These graphs show population-weighted access and burden by group for the followi
 
 * Transportation Cost Burden: Transportation is the second-largest expenditure category for American households, approximately 16% of annual expenditures on average between 2015 and 2018.  Only housing costs (~32%) exceed those of transportation. Transportation costs can be significant economic burdens for moderate and lower income households. For many working-class and rural households, transportation costs exceed housing costs. Transportation cost burden is the percentage of household income for a moderate income household that would be needed to cover transportation costs. These estimated costs are derived from the [Location Affordability Index Model Version 3 (LAIM3)](https://www.hudexchange.info/programs/location-affordability-index/about/) developed by the U.S. Department of Housing and Urban Development (HUD) and Department of Transportation. 
 
-For example, adults over the age of 64 (i.e., 'Over 64') in the state reside in Census block groups that experience population-weighted transportation cost burdens of over `r round(lai_nh_df %>% filter(Group == "Over 64") %>% select(AvgWHeadway) %>% pull(),1)`% of annual household income. This is almost twice the national average of 16%. 
+For example, adults over the age of 64 (i.e., 'Over 64') in the state reside in Census block groups that experience population-weighted transportation cost burdens of over `r round(lai_nh_df %>% filter(Group == "Over 64") %>% select(wTBurden) %>% pull(),1)`% of annual household income. This is almost twice the national average of 16%. 
 
 <br>
 
