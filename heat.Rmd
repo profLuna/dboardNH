@@ -730,7 +730,6 @@ Priority populations represent demographic groups that environmental justice pol
 * Adults 25 years or older without a high school diploma
 * Children under the age of 5
 * Adults over the age of 64
-* Environmental Justice communities defined by state policy
 
 
 Metrics of heat:
