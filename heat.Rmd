@@ -354,7 +354,7 @@ rm(list = ls(pattern = paste("muni", "_80th", "houseN", "senateN", "houseL", "se
 
 Heat is the leading cause of weather-related death in the U.S. Warmer air temperatures can also exacerbate air pollution, especially ground-level ozone. As the climate warms, heat presents both a direct and indirect threat to health and quality of life. 
 
-Population centers experience the highest daytime temperatures. This is especially the case in the western and northwestern parts of New Hampshire. Nighttime temperatures are highest along the shore of Lake Champlain as well as in and near Bennington and Brattleboro. Limited English speaking households and people of color are more likely to experience the highest daytime and nighttime temperatures.
+Population centers experience the highest daytime temperatures. This is especially the case in the southeast corner of New Hampshire. Higher nighttime temperatures are more widespread across the state. Limited English speaking households and people of color are more likely to experience the highest daytime and nighttime temperatures.
 
 These interactive figures identify communities across New Hampshire that are most overburdened and most vulnerable to three measures of ambient temperature: Day-Night average land surface temperatures (LST), the Urban Heat Island effect, and elevated nighttime LST.
 
