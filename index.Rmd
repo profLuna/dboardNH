@@ -262,7 +262,7 @@ leaflet(width = "100%") %>%
             #            "3 Hi Burdens + Hi Priority Pops",
             #            "4 Hi Burdens + Hi Priority Pops"),
             position = "bottomleft") %>% 
-  setView(lng = -71.5, 44, zoom = 8) %>% 
+  setView(lng = -71.5, 44, zoom = 7) %>% 
   # addMiniMap() %>% 
   addScaleBar(position = "bottomright") %>% 
   addSearchFeatures(targetGroups  = 'muni', 
@@ -436,6 +436,7 @@ sketch1 = htmltools::withTags(table(
 
 read_csv("../tables/NH_burdens_town.csv") %>% 
   mutate(across(starts_with("Pct"), ~./100)) %>% # let DT do formatting
+  mutate(across(starts_with("Pct"), ~if_else(. > 1, 1, .))) %>%
   datatable(., rownames = FALSE, options = list(pageLength = 10), 
             container = sketch1) %>% 
   formatRound(., columns = c(2,4,6), digits = 0, mark = ",") %>% 
