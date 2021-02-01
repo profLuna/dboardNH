@@ -706,7 +706,6 @@ Priority populations represent demographic groups that environmental justice pol
 * Individuals under the age of 18
 * Adults 18 years or older with a physical disability
 * Households without access to a car
-* Environmental Justice communities defined by state policy
 
 
 Metrics of transportation access and adequacy:
