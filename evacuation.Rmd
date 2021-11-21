@@ -1,6 +1,11 @@
 ---
-title: "Evacuation"
+title: "New Hampshire"
 ---
+<style type="text/css">
+h1.title {
+  text-align: center;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
@@ -395,11 +400,13 @@ rm(list = ls(pattern = paste("ne_","muni", "hevac", "nfhza", "_tracts_",
                              "houseN", "senateN", "houseH", "senateH",
                              "nh_blkgrps_sf$", sep = "|")))
 ```
-
+---
+# Evacuation
 Flood and storm surge are significant risks in New Hampshire. In the event of extensive inland or coastal flooding, evacuation may be required. For individuals and households with limited mobility, either due to inadequate access to transportation options or because of physical limitations, evacuation presents heightened risk. Evacuation may also prove especially difficult for individuals and households due to limited economic resources, difficulty understanding or accessing information, or low trust in official sources of information. 
 
-Over 78,000 people in New Hampshire live in a FEMA flood risk zone and over 14,000 live in a hurricane evacuation zone. Households without a car and low income persons are more likely to live in flood zones compared to the general population or other priority populations. Those over 64 years of age and households without a car are more likely to live in a hurricane evacuation zone
-compared to the general population or other priority populations.
+* Over 78,000 people in New Hampshire live in a FEMA flood risk zone and over 14,000 live in a hurricane evacuation zone. 
+* Households without a car and low income persons are more likely to live in flood zones compared to the general population or other priority populations. 
+* Those over 64 years of age and households without a car are more likely to live in a hurricane evacuation zone compared to the general population or other priority populations.
 
 These interactive figures identify communities across New Hampshire that are most most vulnerable to the risks of inland flooding or coastal storm surge.
 
